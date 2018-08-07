@@ -78,9 +78,12 @@
 
         #content {
 
-            margin-left: 13%;
+            /* margin-left: 13%; */
+        }
 
+        .border-bottom {
 
+            border-width: 3px !important;
         }
     </style>
 
@@ -88,7 +91,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white p-0 border-bottom">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
         <div class="container">
             <a class="navbar-brand text-white bg-primary px-3 py-3" id="myname" href="#">Binh (Cindy) Lam</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
@@ -109,34 +112,44 @@
     </nav>
 
 
-    <div class="w-50 h-75 bg-white mt-5 float-none px-2" id="content">
+    <!-- QQQ: Having issue with adjusting the content in relative to the nav bar  -->
 
-        <div class="row text-secondary border-bottom py-4 mx-0">
+    <div class="container">
 
-            About Me
+        <div class="w-75 h-75 bg-white mt-5 float-none px-4" id="content">
+
+
+
+            <div class="row text-secondary border-bottom py-4 mx-0">
+
+                About Me
+            </div>
+
+
+            <div class="row d-block py-4 mx-0">
+
+                <img class="float-left mr-4" id="profile" src="images/Lam.jpg" alt="my profile picture" />
+                <p>WHO am I? I am Binh Lam. I go by Cindy. I graduated from University of Pittsburgh in April 2017 with a Communication
+                    degree. Since I graduated, I worked as a Legal Assistant at Kao Kaw Firm, LLC and Law Office of Huy Nguyen,
+                    LLC. Currently, I am a student at UPenn LPS Coding Bootcamp in Philadelphia, Pennsylvania. </p>
+
+                <p>I like to code. I like to find solutions to problems</p>
+
+                <p>Integer faucibus rhoncus velit in facilisis. Etiam sit amet interdum diam, in auctor enim. Vivamus nec dapibus
+                    tortor, id hendrerit mauris. Nam tellus neque, finibus nec justo id, dignissim fringilla quam. Morbi
+                    nibh augue, convallis vel eros at, consectetur euismod orci. Quisque a nisl ut tellus vestibulum elementum.
+                    Cras ut purus non purus tincidunt tincidunt vitae vel lorem. Nam vel felis sed felis vehicula ullamcorper
+                    non sed justo. Suspendisse ut dui vel libero fringilla vehicula vitae vel ex. Cras ut quam ac arcu pulvinar
+                    accumsan. Nam non rutrum ex. Cras vitae justo ut nibh ultricies scelerisque. Nam condimentum, dolor quis
+                    pulvinar iaculis, ex sem efficitur velit, id laoreet mi diam id ante. Praesent rhoncus rutrum urna in
+                    ultrices. Curabitur vitae velit nec orci ultricies fringilla.</p>
+
+
+            </div>
+
+
         </div>
 
-
-        <div class="row d-block py-4 mx-0">
-
-            <img class="float-left mr-4" id="profile" src="images/Lam.jpg" alt="my profile picture" />
-            <p>WHO am I? I am Binh Lam. I go by Cindy. I graduated from University of Pittsburgh in April 2017 with a Communication
-                degree. Since I graduated, I worked as a Legal Assistant at Kao Kaw Firm, LLC and Law Office of Huy Nguyen,
-                LLC. Currently, I am a student at UPenn LPS Coding Bootcamp in Philadelphia, Pennsylvania. </p>
-
-            <p>I like to code. I like to find solutions to problems</p>
-
-            <p>Integer faucibus rhoncus velit in facilisis. Etiam sit amet interdum diam, in auctor enim. Vivamus nec dapibus
-                tortor, id hendrerit mauris. Nam tellus neque, finibus nec justo id, dignissim fringilla quam. Morbi nibh
-                augue, convallis vel eros at, consectetur euismod orci. Quisque a nisl ut tellus vestibulum elementum. Cras
-                ut purus non purus tincidunt tincidunt vitae vel lorem. Nam vel felis sed felis vehicula ullamcorper non
-                sed justo. Suspendisse ut dui vel libero fringilla vehicula vitae vel ex. Cras ut quam ac arcu pulvinar accumsan.
-                Nam non rutrum ex. Cras vitae justo ut nibh ultricies scelerisque. Nam condimentum, dolor quis pulvinar iaculis,
-                ex sem efficitur velit, id laoreet mi diam id ante. Praesent rhoncus rutrum urna in ultrices. Curabitur vitae
-                velit nec orci ultricies fringilla.</p>
-
-
-        </div>
 
 
 
